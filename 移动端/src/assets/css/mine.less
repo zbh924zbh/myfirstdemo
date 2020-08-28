@@ -1,0 +1,162 @@
+@charset "utf-8";
+@import"./public.css";
+
+
+@base: 100;
+
+
+.wrap {
+
+    // 头部
+    .uls {
+        height: 0.86rem;
+        padding: 0.44rem 0.24rem 0;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #f26b11;
+        display: flex;
+
+        .jiantou img {
+            width: 51rem / @base;
+            height: 42rem / @base;
+        }
+
+        li {
+            span {
+                font-size: 34rem / @base;
+                color: white;
+            }
+        }
+
+        .shop {
+            width: 56rem / @base;
+            height: 11rem / @base;
+            align-self: center;
+            display: flex;
+            justify-content: space-between;
+
+            span {
+                display: block;
+                width: 10rem / @base;
+                height: 10rem / @base;
+                border-radius: 50%;
+                background-color: white;
+
+            }
+        }
+    }
+    .tx{
+        height: 206rem / @base;
+        background-color: #f26b11 ;
+        display: flex;
+        justify-content: space-between;
+        .tx1{
+            margin-top: 28rem / @base;
+            display: flex;
+            .tx2{
+                width: 145rem / @base;
+                height: 145rem / @base;
+                border: 6rem / @base solid white;
+                border-radius: 50%;
+                background: url("../images/mine_images/head.jpg") no-repeat;
+                background-size: 145rem / @base 145rem / @base;
+                margin-left: 32rem / @base;
+            }
+            .tx3{
+                height: 145rem / @base;
+                text-align: center;
+                margin-left: 30rem / @base;
+               
+              
+                 span{
+                     font-size: 30rem / @base;
+                     color: white;
+                     display: block;
+                     margin-top: 45rem / @base;
+                 }
+                 p{
+                     margin-top: 22rem / @base;
+                     font-size: 23rem / @base;
+                 }
+
+            }
+        }
+        .tx4{
+            width: 160rem / @base;
+            height: 70rem  / @base;
+            background-color: white;
+            color: #f26b11;
+            text-align: center;
+            line-height: 70rem / @base;
+            font-size: 25rem / @base;
+            margin-top:75rem / @base ;
+            margin-right:38rem / @base ;
+            border-radius: 5rem / @base;
+        }
+    }
+
+    .menu{
+         
+        height: 145rem / @base;
+        background-color: white;
+        display: flex;
+       justify-content: space-around;
+       align-items: center;
+       .menu1{
+           text-align: center;
+        img{
+            width: 34rem / @base;
+            height: 34rem / @base;
+        }
+        p{
+           margin-top:20rem / @base ;
+           font-size: 22rem / @base;
+           color: #626262;
+        }
+       }
+     
+     
+    }
+
+    .service{
+        height: 720rem / @base;
+        background-color: #fff;
+        margin-top: 20rem / @base;
+        .service2{
+            height: 113rem / @base;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1rem / @base solid #d5d5d5; 
+            .service3{
+                margin-left:35rem / @base ;
+                margin-top:35rem / @base ;
+                img{
+                width: 36rem / @base;
+                height: 40rem / @base;
+                }
+                span{
+                    font-size: 25rem / @base;
+                    color: #6b6b6b;
+                    display: inline-block;
+                    margin-top: 10rem / @base;
+                    margin-left: 27rem / @base;
+                }
+            }
+            .service4{
+                img{
+                width: 19rem / @base;
+                height: 26rem / @base;
+                margin-top: 47rem / @base;
+                margin-right: 37rem / @base;
+                }
+                span{
+                    display: inline-block;
+                    margin-top: 48rem / @base;
+                    margin-right: 15rem / @base;
+                    font-size: 21rem / @base;
+                    color: #f26b11;
+                }
+            }
+        }
+    }
+}

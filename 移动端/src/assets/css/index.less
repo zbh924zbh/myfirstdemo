@@ -1,0 +1,421 @@
+@charset "utf-8";
+@import"./public.css";
+
+
+
+@base: 100;
+
+.wrap {
+
+    // 头
+    header {
+        height: 86rem / @base;
+        padding: 44rem / @base 24rem / @base 0;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #e4e4e4;
+
+
+        // logo
+        .logo img {
+            width: 147rem / @base;
+            height: 39rem / @base;
+        }
+
+        // 搜索
+        .search {
+            width: 305rem / @base ;
+            height: 39rem / @base;
+
+            input {
+                width: 305rem / @base;
+                height: 39rem / @base;
+                background-color: #eee;
+                color: #c2c2c2;
+                text-align: center;
+                line-height: 39rem / @base;
+            }
+        }
+
+        // 功能
+        .shop {
+            width: 56rem / @base;
+            height: 11rem / @base;
+            display: flex;
+            justify-content: space-between;
+
+            span {
+                display: block;
+                width: 10rem / @base;
+                height: 10rem / @base;
+                border-radius: 50%;
+                background-color: black;
+            }
+        }
+    }
+
+    // 导航
+    nav {
+        background-color: #fff;
+        padding-left: 10rem / @base;
+        position: relative;
+
+        a {
+            box-sizing: border-box;
+            display: inline-block;
+            font-size: 28rem / @base;
+            height: 76rem / @base;
+            line-height: 76rem / @base;
+            color: #262626;
+            margin: 0 20rem / @base;
+            vertical-align: middle;
+        }
+
+        span {
+            display: inline-block;
+            width: 1rem / @base;
+            height: 33rem / @base;
+            vertical-align: middle;
+            background-color: #f1f1f1;
+        }
+
+        .color a {
+            color: #e40b40;
+            border-bottom: 4px solid #e50132;
+        }
+
+        .jiantou {
+            width: 75rem / @base;
+            height: 76rem / @base;
+            background: white url("../images/index_images/arrow.jpg") no-repeat center center;
+            background-size: 35rem / @base 21rem / @base;
+            position: absolute;
+            right: 0;
+        }
+    }
+
+    // 广告
+    .banner {
+        img {
+            width: 750rem / @base;
+            height: 291rem / @base;
+        }
+    }
+
+    // 限时抢购 
+    .service {
+        width: 750rem / @base;
+        height: 180rem / @base;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .menu {
+            text-align: center;
+
+            img {
+                width: 64rem / @base;
+                height: 62rem / @base;
+            }
+
+            p {
+                font-size: 24rem / @base;
+                line-height: 60rem / @base;
+            }
+        }
+
+    }
+// 限时秒杀
+    .content {
+        width: 750rem / @base;
+        height: 380rem / @base;
+        background-color: #fff;
+        margin-top: 30px;
+        display: flex;
+
+        .content_lf {
+            width: 375rem / @base;
+            height: 380rem / @base;
+            border-right: 1rem / @base solid #f0f0f0;
+
+             img {
+                width: 33rem / @base;
+                height: 31rem / @base;
+                margin: 16rem / @base 19rem / @base;
+            }
+
+            span {
+                display: inline-block;
+                font-size: 28rem / @base;
+                margin: 19rem / @base  0 10rem / @base 0.9rem / @base;
+                color: #e92358;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 21rem / @base;
+                margin-left: 19rem / @base;
+                color: #8f8f8f;
+                margin-bottom: 5rem / @base;
+            }
+
+            .times {
+                width: 285rem / @base;
+                height: 41rem / @base;
+                margin: 10rem / @base 19rem / @base;
+
+                .time {
+                    width: 41rem / @base;
+                    height: 41rem / @base;
+                    background-color: black;
+                    color: white;
+                    line-height: 41rem / @base;
+                    text-align: center;
+                    font-size: 17rem / @base;
+
+
+                }
+
+                i {
+                    width: 18rem / @base;
+                    height: 15rem / @base;
+                    display: block;
+                    float: left;
+                    text-align: center;
+                    margin-top: 12rem / @base;
+                    color: black;
+                    line-height: 15rem / @base;
+                    font-style: normal;
+                    font-size: 17rem / @base;
+
+
+                }
+
+                .time2 {
+                    width: 100rem / @base;
+                    height: 41rem / @base;
+                    font-size: 24rem / @base;
+                    text-align: center;
+                    line-height: 41rem / @base;
+                    background: url("../images/index_images/bg.jpg") no-repeat;
+                    background-size: 96rem / @base 40rem / @base;
+                }
+            }
+            
+            .shop{
+                position: relative;
+                width: 236rem / @base;
+                height: 200rem / @base;
+                margin: 0 auto;
+                img{
+                    width: 236rem / @base;
+                    height: 200rem / @base;
+                }
+                .jg{
+                    position: absolute;
+                    width: 85rem / @base;
+                    height: 85rem / @base;
+                    border-radius:50% ;
+                    background-color: #ff3179;
+                     top: 80rem / @base;
+                    right:-30rem / @base;
+                    text-align: center;
+                    line-height: 85rem / @base;
+                    font-size: 22rem / @base;
+                    color: white;
+                }
+            }
+
+        }
+
+        .content_ri{
+            width: 375rem / @base;
+            height: 380rem / @base;
+            background-color: #fff;
+            .bottom{
+                width: 375rem / @base;
+                height: 190rem / @base;
+                display: flex;
+                .bottom2{
+                    width: 190rem / @base;
+                    height: 190rem / @base;
+                
+                     span{
+                        
+                            display: inline-block;
+                            font-size: 28rem / @base;
+                            margin: 19rem / @base  0 10rem / @base 19rem / @base;
+                            color: #e92358;
+                            font-weight: bold; 
+                            margin-right: 0;
+                     }
+                     p {
+                        font-size: 21rem / @base;
+                        margin-left: 0rem / @base;
+                        color: #8f8f8f;
+                        margin-bottom: 5rem / @base;
+                    }
+                    a{
+                        width: 34rem / @base;
+                        height: 25rem / @base;
+                        background-color: #e92358 ;
+                        display:inline-block ;
+                        font-size: 19rem / @base;
+                        text-align: center;
+                       color: white;
+                       line-height: 25rem / @base;
+                       margin-left: 5rem / @base;
+                       padding: 2rem / @base;
+                    }
+                    img{
+                       width: 93rem / @base;
+                       height: 32rem / @base;
+                        margin: 25rem / @base 19rem / @base;
+                    }
+                }
+                .bottom3{
+                    width: 190rem / @base;
+                    height: 190rem / @base;
+                   text-align: center;
+                   img{
+                    width: 128rem / @base;
+                    height: 178rem / @base;
+                       margin-top:5rem / @base ;
+                   }
+                }
+            }
+            .bottom4{
+                width: 375rem / @base;
+                height: 190rem / @base;
+                background-color: #fff;
+                display: flex;
+                .bottom5{
+                    width: 190rem / @base;
+                    height: 190rem / @base;
+                  border-top:1px solid #f0f0f0  ;
+                  border-right:1px solid #f0f0f0 ;
+                    span{
+                        
+                        display: inline-block;
+                        font-size: 28rem / @base;
+                        margin: 19rem / @base  0 10rem / @base 19rem / @base;
+                        color: #e92358;
+                        font-weight: bold; 
+                        margin-right: 0;
+                 }
+                 p {
+                    font-size: 21rem / @base;
+                    margin-left: 9rem / @base;
+                    color: #8f8f8f; margin-bottom: 5rem / @base;
+                    margin-bottom: 5rem / @base;
+                }
+                .imgs{
+                    width: 108rem / @base;
+                     margin: 0 auto;
+                     text-align: center;
+                    img{
+                        width: 64rem / @base;
+                        height: 102rem / @base;
+                    }
+                }
+                }
+                .bottom6{
+                    .imgs{
+                        img{
+                            width: 104rem / @base;
+                            height: 88rem / @base;
+                        }
+                    }
+                   
+                }
+            } 
+        }
+
+
+    }
+
+// 广告
+    .banner2 img{
+        width: 750rem / @base;
+        height: 200rem / @base;
+        margin-top: 30rem / @base;
+    }
+   
+//内容二
+    .container{
+        height: 1105rem / @base;
+        background-color: #fff;
+        margin-top: 20rem / @base;
+        overflow: hidden;
+        .column{
+            width: 710rem / @base;
+            height: 70rem / @base;
+            margin: 20rem / @base;
+            display: flex;
+            li{
+                width: 180rem / @base;
+                height: 70rem / @base;
+                display: block;
+                text-align: center;
+                line-height: 70rem / @base;
+                font-size: 26rem / @base;
+                border: 1px solid #d0d0d0;
+                 border-left:none ;
+            }
+            .lis{
+                border-left: 1px solid #d0d0d0;
+                color: white;
+                background-color: #f26b11;
+            }
+        }
+        .goods{
+            width: 705rem / @base;
+            height: 300rem / @base;
+            margin: 0 20rem / @base 33rem / @base;
+            box-shadow: 0 0 10rem / @base 10rem / @base rgb(238, 234, 234);
+           img{
+               width: 216rem / @base;
+               height: 222rem / @base;
+               margin-top: 55rem / @base;
+           }
+           .goods2{
+               width: 400rem / @base;
+               height: 300rem / @base;
+               display: inline-block;
+               margin-left: 55rem / @base;
+               p{
+                   font-size: 30rem / @base;
+                   margin-top: 44rem / @base;
+               }
+               span{
+                   display: block;
+                   color: #ed3736;
+                   font-size: 24rem / @base;
+                   margin-top: 30rem / @base;
+               }
+               div{
+                   font-size: 24rem / @base;
+                   color: #989898;
+                   margin: 31rem / @base 0;
+               }
+               button{
+                   width: 164rem / @base;
+                   height: 52rem / @base;
+                   background-color: #f26b11;
+                   color: white;
+                   line-height: 52rem / @base;
+                   text-align: center;
+                   font-size: 23rem / @base;
+                   border-radius: 15rem / @base;
+               }
+           }
+           
+        }
+        
+    }
+    
+
+}

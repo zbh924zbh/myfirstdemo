@@ -1,0 +1,136 @@
+@charset "utf-8";
+@import "./public.css";
+.wrap .uls {
+  height: 0.86rem;
+  padding: 0.44rem 0.24rem 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f26b11;
+  display: flex;
+}
+.wrap .uls .jiantou img {
+  width: 0.51rem;
+  height: 0.42rem;
+}
+.wrap .uls li span {
+  font-size: 0.34rem;
+  color: white;
+}
+.wrap .uls .shop {
+  width: 0.56rem;
+  height: 0.11rem;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .uls .shop span {
+  display: block;
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background-color: white;
+}
+.wrap .tx {
+  height: 2.06rem;
+  background-color: #f26b11;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .tx .tx1 {
+  margin-top: 0.28rem;
+  display: flex;
+}
+.wrap .tx .tx1 .tx2 {
+  width: 1.45rem;
+  height: 1.45rem;
+  border: 0.06rem solid white;
+  border-radius: 50%;
+  background: url("../images/mine_images/head.jpg") no-repeat;
+  background-size: 1.45rem 1.45rem;
+  margin-left: 0.32rem;
+}
+.wrap .tx .tx1 .tx3 {
+  height: 1.45rem;
+  text-align: center;
+  margin-left: 0.3rem;
+}
+.wrap .tx .tx1 .tx3 span {
+  font-size: 0.3rem;
+  color: white;
+  display: block;
+  margin-top: 0.45rem;
+}
+.wrap .tx .tx1 .tx3 p {
+  margin-top: 0.22rem;
+  font-size: 0.23rem;
+}
+.wrap .tx .tx4 {
+  width: 1.6rem;
+  height: 0.7rem;
+  background-color: white;
+  color: #f26b11;
+  text-align: center;
+  line-height: 0.7rem;
+  font-size: 0.25rem;
+  margin-top: 0.75rem;
+  margin-right: 0.38rem;
+  border-radius: 0.05rem;
+}
+.wrap .menu {
+  height: 1.45rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrap .menu .menu1 {
+  text-align: center;
+}
+.wrap .menu .menu1 img {
+  width: 0.34rem;
+  height: 0.34rem;
+}
+.wrap .menu .menu1 p {
+  margin-top: 0.2rem;
+  font-size: 0.22rem;
+  color: #626262;
+}
+.wrap .service {
+  height: 7.2rem;
+  background-color: #fff;
+  margin-top: 0.2rem;
+}
+.wrap .service .service2 {
+  height: 1.13rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.01rem solid #d5d5d5;
+}
+.wrap .service .service2 .service3 {
+  margin-left: 0.35rem;
+  margin-top: 0.35rem;
+}
+.wrap .service .service2 .service3 img {
+  width: 0.36rem;
+  height: 0.4rem;
+}
+.wrap .service .service2 .service3 span {
+  font-size: 0.25rem;
+  color: #6b6b6b;
+  display: inline-block;
+  margin-top: 0.1rem;
+  margin-left: 0.27rem;
+}
+.wrap .service .service2 .service4 img {
+  width: 0.19rem;
+  height: 0.26rem;
+  margin-top: 0.47rem;
+  margin-right: 0.37rem;
+}
+.wrap .service .service2 .service4 span {
+  display: inline-block;
+  margin-top: 0.48rem;
+  margin-right: 0.15rem;
+  font-size: 0.21rem;
+  color: #f26b11;
+}

@@ -1,0 +1,93 @@
+@charset "utf-8";
+@import "./public.css";
+body {
+  background-color: #fff;
+}
+.wrap .uls {
+  height: 0.86rem;
+  padding: 0.44rem 0.24rem 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f26b11;
+  display: flex;
+}
+.wrap .uls .jiantou img {
+  width: 0.51rem;
+  height: 0.42rem;
+}
+.wrap .uls li span {
+  font-size: 0.34rem;
+  color: white;
+}
+.wrap .uls .shop {
+  width: 0.56rem;
+  height: 0.11rem;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .uls .shop span {
+  display: block;
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background-color: white;
+}
+.wrap .content {
+  display: flex;
+}
+.wrap .content ul {
+  width: 1.65rem;
+  border-right: 0.01rem solid #d9d9d9;
+  overflow: hidden;
+  padding-top: 0.38rem;
+}
+.wrap .content ul li {
+  margin-bottom: 0.75rem;
+}
+.wrap .content ul li a {
+  height: 0.51rem;
+  display: block;
+  text-align: center;
+  line-height: 0.51rem;
+  font-size: 0.25rem;
+}
+.wrap .content ul li .as {
+  border-left: 4px solid #f26b11;
+  color: #f26b11;
+}
+.wrap .content .content2 {
+  width: 5.86rem;
+}
+.wrap .content .content2 .zi {
+  margin: 0.38rem 0;
+  height: 0.52rem;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .content .content2 .zi span {
+  font-size: 0.28rem;
+  line-height: 0.52rem;
+  padding-left: 0.58rem;
+}
+.wrap .content .content2 .zi a {
+  font-size: 0.22rem;
+  color: #969696;
+  line-height: 0.52rem;
+  padding-right: 0.44rem;
+}
+.wrap .content .content2 .goods {
+  width: 1.94rem;
+  text-align: center;
+  overflow: hidden;
+}
+.wrap .content .content2 .goods img {
+  width: 1.6rem;
+  height: 1.5rem;
+}
+.wrap .content .content2 .goods p {
+  line-height: 0.68rem;
+  font-size: 0.22rem;
+  color: #888;
+  margin: 0.15rem 0;
+}

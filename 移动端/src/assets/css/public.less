@@ -1,0 +1,75 @@
+@charset "utf-8";
+@import "./reset.css";
+@import "./normalize.css";
+body{
+    font-size: 12px;
+   line-height: 1;
+   background-color: #f1f1f1;
+}
+
+@base:100;
+.wrap{
+    width: 750rem / @base;
+    margin: 0 auto;
+    .footer{
+        height: 130rem / @base;
+        background-color:#fff;
+        display: flex;
+        justify-content: space-around;
+        border-top:1px solid #eaeaea ;
+        li{
+         text-align: center;
+        align-self: center;
+         img{
+             width: 52rem / @base;
+             height: 53rem / @base;
+
+         }
+         .shouye{
+            color: #ee7f3a;
+         }
+         p{
+             font-size: 20rem / @base;
+             color: #8a8a8a;
+             margin-top: 13rem / @base;
+         }
+        }
+    }
+    .uls {
+        height: 0.86rem;
+        padding: 0.44rem 0.24rem 0;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #f26b11;
+        display: flex;
+
+        .jiantou img {
+            width: 51rem / @base;
+            height: 42rem / @base;
+        }
+
+        li {
+            span {
+                font-size: 34rem / @base;
+                color: white;
+            }
+        }
+
+        .shop {
+            width: 56rem / @base;
+            height: 11rem / @base;
+            align-self: center;
+            display: flex;
+            justify-content: space-between;
+
+            span {
+                display: block;
+                width: 10rem / @base;
+                height: 10rem / @base;
+                border-radius: 50%;
+                background-color: white;
+
+            }
+        }
+    }
+}

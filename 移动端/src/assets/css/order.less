@@ -1,0 +1,116 @@
+@charset "utf-8";
+@import"./public.css";
+
+
+@base: 100;
+
+body {
+    background-color: #fff;
+}
+
+.wrap {
+    .uls {
+        height: 0.86rem;
+        padding: 0.44rem 0.24rem 0;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #f26b11;
+        display: flex;
+
+        .jiantou img {
+            width: 51rem / @base;
+            height: 42rem / @base;
+        }
+
+        li {
+            span {
+                font-size: 34rem / @base;
+                color: white;
+            }
+        }
+
+        .shop {
+            width: 56rem / @base;
+            height: 11rem / @base;
+            align-self: center;
+            display: flex;
+            justify-content: space-between;
+
+            span {
+                display: block;
+                width: 10rem / @base;
+                height: 10rem / @base;
+                border-radius: 50%;
+                background-color: white;
+
+            }
+        }
+    }
+
+    .content {
+        display: flex;
+
+        ul {
+            width: 165rem / @base;
+            border-right: 1rem / @base solid #d9d9d9;
+            overflow: hidden;
+            padding-top: 38rem / @base;
+
+            li {
+                margin-bottom: 75rem / @base ;
+
+                a {
+                    height: 51rem / @base;
+                    display: block;
+                    text-align: center;
+                    line-height: 51rem / @base;
+                    font-size: 25rem / @base;
+
+                }
+
+                .as {
+                    border-left: 4px solid #f26b11;
+                    color: #f26b11;
+                }
+            }
+        }
+
+        .content2 {
+            width: 586rem / @base;
+
+
+            .zi {
+                margin: 38rem / @base 0;
+                height: 52rem / @base;
+                display: flex;
+                justify-content: space-between;
+                span{
+                font-size: 28rem / @base;
+                line-height: 52rem / @base; 
+                padding-left: 58rem / @base;
+                }
+                a{
+                    font-size: 22rem / @base;
+                    color: #969696;
+                line-height: 52rem / @base; 
+           padding-right: 44rem / @base;
+                }
+            }
+         .goods{
+             width: 194rem / @base;
+             text-align: center;
+             overflow: hidden;
+             img{
+                 width: 160rem / @base;
+                 height: 150rem / @base;
+             }
+             p{
+                 line-height: 68rem / @base;
+                 font-size: 22rem / @base;
+                 color: #888;
+                 margin: 15rem / @base 0;
+             }
+         }
+        }
+    }
+}

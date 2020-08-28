@@ -1,0 +1,168 @@
+@charset "utf-8";
+@import "./public.css";
+body {
+  background-color: #fff;
+}
+.wrap .uls {
+  height: 0.86rem;
+  padding: 0.44rem 0.24rem 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f26b11;
+  display: flex;
+}
+.wrap .uls .jiantou img {
+  width: 0.51rem;
+  height: 0.42rem;
+}
+.wrap .uls li span {
+  font-size: 0.34rem;
+  color: white;
+}
+.wrap .uls .shop {
+  width: 0.56rem;
+  height: 0.11rem;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .uls .shop span {
+  display: block;
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background-color: white;
+}
+.wrap .content {
+  height: 1.75rem;
+  box-shadow: 0 0 0.1rem 0.05rem #e9e4e4;
+  margin-top: 0.3rem;
+}
+.wrap .content .yuan {
+  width: 0.34rem;
+  height: 0.34rem;
+  border: 0.02rem solid #b83a2b;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0.65rem 0.23rem;
+}
+.wrap .content .yuan .gou {
+  width: 0.17rem;
+  height: 0.13rem;
+  margin-top: 0.1rem;
+}
+.wrap .content .dx {
+  width: 1.02rem;
+  height: 0.82rem;
+  margin: 0.4rem 0.2rem;
+}
+.wrap .content .jq {
+  width: 2rem;
+  height: 1.3rem;
+  margin: 0.2rem 0;
+}
+.wrap .content .jq span {
+  font-size: 0.26rem;
+}
+.wrap .content .jq p {
+  font-size: 0.24rem;
+  margin: 0.28rem 0;
+}
+.wrap .content .jq i {
+  font-size: 0.24rem;
+  font-style: normal;
+  color: #e43a3b;
+}
+.wrap .content .sl {
+  width: 2.11rem;
+  height: 0.59rem;
+  border: 0.01rem solid #ccc;
+  margin-top: 0.9rem;
+  margin-left: 0.8rem;
+  border-radius: 0.1rem;
+  text-align: center;
+  line-height: 0.59rem;
+  display: flex;
+}
+.wrap .content .sl .jian,
+.wrap .content .sl .jia {
+  width: 0.6rem;
+  height: 0.59rem;
+  font-size: 0.3rem;
+}
+.wrap .content .sl .s {
+  width: 0.8rem;
+  height: 0.59rem;
+  border-left: 0.01rem solid #CCC;
+  border-right: 0.01rem solid #CCC;
+  font-size: 0.2rem;
+}
+.wrap .content .yuan2 {
+  border: 0.02rem solid #ccc;
+}
+.wrap .content button {
+  width: 0.96rem;
+  height: 1.75rem;
+  background-color: #e43a3d;
+  text-align: center;
+  line-height: 1.75rem;
+  font-size: 0.23rem;
+  color: white;
+}
+.wrap .jiesuan {
+  margin-top: 3.66rem;
+  height: 1.15rem;
+  border-top: 0.01rem solid #e5e5e5;
+  border-bottom: 0.01rem solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap .jiesuan .lis {
+  line-height: 1.15rem;
+}
+.wrap .jiesuan .lis .yuan3 {
+  width: 0.34rem;
+  height: 0.34rem;
+  border: 0.02rem solid #b83a2b;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 0.39rem;
+  margin-left: 0.28rem;
+}
+.wrap .jiesuan .lis .yuan3 .gou {
+  width: 0.17rem;
+  height: 0.13rem;
+  margin-top: 0.1rem;
+}
+.wrap .jiesuan .lis span {
+  font-size: 0.21rem;
+  color: #707070;
+  margin-left: 0.1rem;
+}
+.wrap .jiesuan .lis1 {
+  text-align: right;
+  padding-right: 0.2rem;
+}
+.wrap .jiesuan .lis1 span {
+  color: black;
+  margin: 0.15rem 0;
+  display: inline-block;
+  font-size: 0.3rem;
+}
+.wrap .jiesuan .lis1 span a {
+  color: red;
+}
+.wrap .jiesuan .lis1 p {
+  color: #bcbcbc;
+  line-height: 0.25rem;
+  font-size: 0.18rem;
+}
+.wrap .jiesuan .lis2 {
+  background-color: #f26b11;
+  line-height: 1.15rem;
+  font-size: 0.28rem;
+  color: white;
+  padding-left: 0.46rem;
+  padding-right: 0.46rem;
+}
